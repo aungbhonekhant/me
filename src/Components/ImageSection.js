@@ -23,15 +23,15 @@ function ImageSection() {
                     <span> Aung Khant</span>
                 </h4>
                 <p className="about-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta qui sapiente, 
-                                        quis excepturi perspiciatis eveniet dolores id perferendis adipisci rerum repellendus 
-                                        nam nobis beatae natus placeat veniam quisquam eum.
+                    I have been performing as a Full-Stack web developer for 2 years and am still in the process of gaining more experiences through more years. My educational background possesses a Diploma in Web Development. Some effective on-job training makes me more skilled in this field to work in any circumstances. I graduated from Dagon University with a degree in B.A Archeology.
+                    I am passionate about websites and back-end coding. I like to play with codes and results in the best output from my work. 
+                    Also, I have experienced in Accounting. I got the LCCI 3 diploma. I worked as a Junior accountant for two years.
+                    I spend my free time playing games and music, watching movie series, and enjoying time with friends and family.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
                         <p>Full Name</p>
                         <p>Age</p>
-                        <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
                         <p>Phone</p>
@@ -39,7 +39,6 @@ function ImageSection() {
                     <div className="right-section">
                         <p>: Aung Bhone Khant</p>
                         <p>: {age}</p>
-                        <p>: Burmese</p>
                         <p>: Myanmar, English</p>
                         <p>: Yangon, Myanmar</p>
                         <p>: +95 9776612936</p>

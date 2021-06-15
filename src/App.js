@@ -1,7 +1,7 @@
 import './App.scss';
 import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, Redirect } from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 // import BlogsPage from './Pages/BlogsPage';
@@ -30,6 +30,9 @@ function App() {
                     <Switch>
                         <Route path="/" exact>
                             <HomePage />
+                        </Route>
+                        <Route path="/me" exact>
+                            <Redirect to="/"/>
                         </Route>
                         <Route path="/about">
                             <AboutPage />

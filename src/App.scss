@@ -50,6 +50,9 @@ span{
     html{
         font-size: 90%;
     }
+    a{
+        font-size: 90% !important;
+    }
 }
 
 @media screen and (max-width: 428px){
@@ -57,7 +60,10 @@ span{
         font-size: 70%;
     }
     h2{
-        font-size: 60%;
+        font-size: 70%;
+    }
+    a{
+        font-size: 80% !important;
     }
 }
 @media screen and (max-width: 360px){

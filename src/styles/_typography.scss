@@ -92,8 +92,25 @@
     
 }
 
-.h-sub-text{
-    text-align: center;
+.react-typewriter-text{
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    text-align: center !important;
+    font-weight: normal !important;
+    margin: 2rem 13rem !important;
+    white-space: pre-line !important;
+    @media screen and (max-width: 1600px) {
+        margin: 2rem 7rem !important;
+    }
+    @media screen and (max-width: 1224px) {
+        margin: 2rem 3rem !important;
+    }
+    @media screen and (max-width: 860px) {
+        margin: 2rem 2rem !important;
+    }
+    @media screen and (max-width: 426px) {
+        margin: 2rem 0 !important;
+    }
 }
 
 .icons{

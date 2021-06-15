@@ -11,12 +11,12 @@ function MenuItems({menuItem}) {
                             <ul className="hover-items">
                                 <li>
                                     <a href={item.link1}>{item.icon1}</a>
-                                    <a href={item.link2}>{item.icon2}</a>
+                                    {/* <a href={item.link2}>{item.icon2}</a> */}
                                 </li>
                             </ul>
                         </div>
                         <h5>{item.title}</h5>
-                        <p>Placeholder paragraph</p>
+                        <p>{item.body}</p>
                     </div>
                 })
             }

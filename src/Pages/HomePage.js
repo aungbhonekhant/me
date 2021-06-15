@@ -29,16 +29,13 @@ const HomePage = () => {
                     </span>
                 </h1>
                 <TypeWriterEffect
-                    textStyle={{fontSize:'1.2rem', textAlign: 'center', fontWeight: 'normal', marginBottom: '1rem'}}
+                    //textStyle={{fontSize:'1.2rem', textAlign: 'center', fontWeight: 'normal', margin: '3rem 0'}}
                     startDelay={100}
                     cursorColor="#aff806"
-                    text="I am a fullstack developer for 2 year experienced.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni similique cupiditate
-                    fuga iusto perspiciatis ipsa minus inventore non natus, sit animi magnam eaque eveniet maiores,
-                    quo saepe earum ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempora 
-                    similique! Porro explicabo atque provident. Quasi est accusantium perspiciatis quam assumenda 
-                    voluptates beatae veritatis? Et fugiat velit rerum error eius."
+                    text={`A FullStack web Developer and freelancer from Yangon Myanmar. \n\n I have 2 years of experience in web development. I create small to medium custom websites to help people and businesses do better online.`}
                     typeSpeed={50}
                     // scrollArea={myAppRef}
+                    className="h-sub-text"
                 />
 
                 

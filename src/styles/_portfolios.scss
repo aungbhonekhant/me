@@ -54,6 +54,7 @@
     .portfolio{
         .image-data{
             position: relative;
+            border: 1px solid #384e2e;
             &::before{
                 content: "";
                 position: absolute;
