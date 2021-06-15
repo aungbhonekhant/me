@@ -32,7 +32,7 @@ const HomePage = () => {
                     textStyle={{fontSize:'1.2rem', textAlign: 'center', fontWeight: 'normal', marginBottom: '1rem'}}
                     startDelay={100}
                     cursorColor="#aff806"
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni similique cupiditate
+                    text="I am a fullstack developer for 2 year experienced.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni similique cupiditate
                     fuga iusto perspiciatis ipsa minus inventore non natus, sit animi magnam eaque eveniet maiores,
                     quo saepe earum ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempora 
                     similique! Porro explicabo atque provident. Quasi est accusantium perspiciatis quam assumenda 
