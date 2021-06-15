@@ -1,0 +1,67 @@
+@import './styles/layout';
+@import './styles/typography';
+@import './styles/navbar';
+@import './styles/title';
+@import './styles/about';
+@import './styles/blog';
+@import './styles/contact';
+@import './styles/portfolios';
+@import './styles/skills';
+@import './styles/services';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #b3ff00bb #434a40;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #b3ff00bb;
+    border-radius: 50px;
+    outline: 1px solid rgb(124, 144, 112);
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #434a40;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    color: #a4acc4;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2rem;
+}
+
+span{
+    color: #aff806;
+}
+
+@media screen and (max-width: 700px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 428px){
+    html{
+        font-size: 70%;
+    }
+    h2{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 360px){
+    html{
+        font-size: 60%;
+    }
+}

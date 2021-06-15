@@ -1,0 +1,80 @@
+.App{
+    .sidebar{
+        width: 16%;
+        height: 100vh;
+        background-color: #141414;
+        position: fixed;
+        z-index: 11;
+        border-right: 1px solid #384e2e;
+        transform-origin: left;
+        @media screen and (max-width: 1024px){
+            transition: all .4s ease-in-out;
+            transform: translateX(-100%);
+            width: 30%;
+        }
+        @media screen and (max-width: 428px){
+            width: 50%;
+        }
+    }
+
+    .nav-toggle{
+        @media screen and (max-width: 1024px){
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+        }
+    }
+
+    .main-content{
+        width: 84%;
+        margin-left: 16%;
+        background-color: #000000;
+        min-height: 100vh;
+        background-image: url(../img/dots.svg);
+        background-size: cover;
+        display: grid;
+        position: relative;
+        .content{
+            margin: 5rem 15rem;
+            @media screen and (max-width: 1600px) {
+                margin: 5rem 10rem;
+            }
+            @media screen and (max-width: 1100px) {
+                margin: 5rem 4rem;
+            }
+            // @media screen and (max-width: 6300px) {
+            //     margin: 5rem 2rem;
+            // }
+        }
+
+        @media screen and (max-width: 1024px){
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 5%;
+    width: 4rem;
+    height: 4rem;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .lines-1, .lines-2, .lines-3{
+        height: .4rem;
+        width: 100%;
+        background-color: #aff806;
+        pointer-events: none;
+        border-radius: 20px;
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+    }
+    @media screen and(max-width: 1024px) {
+        display: block;
+    }
+}

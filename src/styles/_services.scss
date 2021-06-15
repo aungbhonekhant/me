@@ -1,0 +1,45 @@
+.ServicesSection{
+    @media screen and (max-width: 1400px) {
+        width: 100%;
+        &:not(:last-child){
+            margin-bottom: 2rem;
+        }
+    }
+    .service{
+        width: 95%;
+        background-color: #0f0f0f;
+        border-left: 1px solid #384e2e;
+        border-right: 1px solid #384e2e;
+        border-bottom: 1px solid #384e2e;
+        border-top: 8px solid #384e2e;
+        transition: all .4s ease-in-out;
+
+        &:hover{
+            border-top: 8px solid #aff806;
+            margin-top:-10px;
+        }
+        .service-content{
+            padding: 1rem;
+            text-align: center;
+            .s-title{
+                font-size: 1.6rem;
+                font-weight: 500;
+                position: relative;
+                padding-bottom: 1rem;
+                margin: 1rem 0;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 35%;
+                    width: 30%;
+                    height: 1px;
+                    background-color:#384e2e;
+                }
+            }
+            .s-text{
+
+            }
+        }
+    }
+}
