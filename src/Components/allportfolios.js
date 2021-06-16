@@ -1,6 +1,8 @@
 import port1 from '../img/portImages/pyinsagam.png';
 import port2 from '../img/portImages/netflix-clone.png';
 import port3 from '../img/portImages/myprofile.png';
+import port4 from '../img/portImages/GameGlaze.png';
+import port5 from '../img/portImages/News.png';
 
 const allPortfolios = [
 {
@@ -35,6 +37,28 @@ const allPortfolios = [
     image: port3,
     title: 'Portfolio',
     body: 'My Personal Profile Website,'
+},
+{
+    id: 4,
+    category: 'PHP',
+    link1: '',
+    link2: 'www.github.com',
+    icon1: 'Go',
+    icon2: 'Y',
+    image: port4,
+    title: 'GameGlaze',
+    body: 'Gaming Accessories Store,'
+},
+{
+    id: 5,
+    category: 'Laravel',
+    link1: '',
+    link2: 'www.github.com',
+    icon1: 'Go',
+    icon2: 'Y',
+    image: port5,
+    title: 'News',
+    body: 'Daily News Website,'
 }
 ]
 
