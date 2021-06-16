@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.88e7d835.chunk.css",
-    "main.js": "/me/static/js/main.a60fb3fd.chunk.js",
-    "main.js.map": "/me/static/js/main.a60fb3fd.chunk.js.map",
+    "main.css": "/me/static/css/main.21abf87f.chunk.css",
+    "main.js": "/me/static/js/main.e80ad119.chunk.js",
+    "main.js.map": "/me/static/js/main.e80ad119.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.84fecc3a.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.84fecc3a.js.map",
     "static/js/2.43d73978.chunk.js": "/me/static/js/2.43d73978.chunk.js",
     "static/js/2.43d73978.chunk.js.map": "/me/static/js/2.43d73978.chunk.js.map",
     "index.html": "/me/index.html",
-    "static/css/main.88e7d835.chunk.css.map": "/me/static/css/main.88e7d835.chunk.css.map",
+    "static/css/main.21abf87f.chunk.css.map": "/me/static/css/main.21abf87f.chunk.css.map",
     "static/js/2.43d73978.chunk.js.LICENSE.txt": "/me/static/js/2.43d73978.chunk.js.LICENSE.txt",
     "static/media/AungBhoneKhant.dd7ddb0a.pdf": "/me/static/media/AungBhoneKhant.dd7ddb0a.pdf",
+    "static/media/GameGlaze.32eb1187.png": "/me/static/media/GameGlaze.32eb1187.png",
+    "static/media/News.e285b529.png": "/me/static/media/News.e285b529.png",
     "static/media/about1.3bb879b4.jpg": "/me/static/media/about1.3bb879b4.jpg",
     "static/media/api.8ccffa2d.svg": "/me/static/media/api.8ccffa2d.svg",
     "static/media/avatar.04ef187b.jpg": "/me/static/media/avatar.04ef187b.jpg",
@@ -27,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.84fecc3a.js",
     "static/js/2.43d73978.chunk.js",
-    "static/css/main.88e7d835.chunk.css",
-    "static/js/main.a60fb3fd.chunk.js"
+    "static/css/main.21abf87f.chunk.css",
+    "static/js/main.e80ad119.chunk.js"
   ]
 }
