@@ -43,7 +43,7 @@ function AboutPage() {
                 <div className="services-container">
                     <ServicesSection image={design} title="Web Design" text="Build the product you need on time with an experienced team that uses a clear and effective design process."/>
                     <ServicesSection image={webdevelopment} title="Web Development" text="I carry more than just good coding skills. My experience makes us stand out from other web development. " />
-                    <ServicesSection image={api} title="RestApi" text="API integration and built REST Api for mobile app and front-end development." />
+                    <ServicesSection image={api} title="RestApi" text="API integration and built REST Api for mobile app and front-end development. Speed and secure is my priority." />
                 </div>
             </div>
             
