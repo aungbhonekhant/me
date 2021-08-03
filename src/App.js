@@ -41,9 +41,9 @@ function App() {
                             <Route path="/" exact>
                                 <HomePage />
                             </Route>
-                            <Route path="/me" exact>
+                            {/* <Route path="/me" exact>
                                 <Redirect to="/"/>
-                            </Route>
+                            </Route> */}
                             <Route path="/about">
                                 <AboutPage />
                             </Route>
