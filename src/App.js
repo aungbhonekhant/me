@@ -1,7 +1,7 @@
 import './App.scss';
 import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
-import {HashRouter, Route } from 'react-router-dom';
+import {Switch, Route } from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 // import BlogsPage from './Pages/BlogsPage';
@@ -37,26 +37,26 @@ function App() {
                 </div>
                 <div className="main-content">
                     <div className="content">
-                        <HashRouter>
-                            <Route path="/" exact>
+                        <Switch>
+                            <Route exact path="/" exact>
                                 <HomePage />
                             </Route>
                             {/* <Route path="/me" exact>
                                 <Redirect to="/"/>
                             </Route> */}
-                            <Route path="/about">
+                            <Route exact path="/about">
                                 <AboutPage />
                             </Route>
-                            <Route path="/portfolios">
+                            <Route exact path="/portfolios">
                                 <PortfoliosPage />
                             </Route>
                             {/* <Route path="/blogs">
                                 <BlogsPage />
                             </Route> */}
-                            <Route path="/contact">
+                            <Route exact path="/contact">
                                 <ContactPage />
                             </Route>
-                        </HashRouter>
+                        </Switch>
                     </div>
                 </div>
             </div>
