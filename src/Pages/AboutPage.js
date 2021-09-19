@@ -23,16 +23,16 @@ function AboutPage() {
                 <div className="skillsContainer">
                     <SkillsSection skill="HTML5" progress="90%"/>
                     <SkillsSection skill="CSS" progress="70%"/>
-                    <SkillsSection skill="Javascript" progress="70%"/>
-                    <SkillsSection skill="Bootstrap" progress="95%"/>
+                    <SkillsSection skill="Javascript" progress="65%"/>
+                    <SkillsSection skill="Bootstrap" progress="90%"/>
                     <SkillsSection skill="Jquery" progress="60%"/>
-                    <SkillsSection skill="Ajax" progress="70%"/>
-                    <SkillsSection skill="PHP" progress="70%"/>
-                    <SkillsSection skill="Laravel" progress="80%"/>
-                    <SkillsSection skill="React Js" progress="70%"/>
-                    <SkillsSection skill="Node.Js" progress="75%"/>
+                    <SkillsSection skill="Ajax" progress="60%"/>
+                    <SkillsSection skill="PHP" progress="55%"/>
+                    <SkillsSection skill="Laravel" progress="70%"/>
+                    <SkillsSection skill="React Js" progress="65%"/>
+                    <SkillsSection skill="Node.Js" progress="65%"/>
                     <SkillsSection skill="Express Js" progress="60%"/>
-                    <SkillsSection skill="MongoDb" progress="65%"/>
+                    <SkillsSection skill="MongoDb" progress="60%"/>
                     
                 </div>
             </div>
