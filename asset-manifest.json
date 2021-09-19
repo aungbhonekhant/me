@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.ed75f5ff.chunk.css",
-    "main.js": "/me/static/js/main.b372116e.chunk.js",
-    "main.js.map": "/me/static/js/main.b372116e.chunk.js.map",
+    "main.js": "/me/static/js/main.9ac92151.chunk.js",
+    "main.js.map": "/me/static/js/main.9ac92151.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.84fecc3a.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.84fecc3a.js.map",
     "static/js/2.1e2e6222.chunk.js": "/me/static/js/2.1e2e6222.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/me/index.html",
     "static/css/main.ed75f5ff.chunk.css.map": "/me/static/css/main.ed75f5ff.chunk.css.map",
     "static/js/2.1e2e6222.chunk.js.LICENSE.txt": "/me/static/js/2.1e2e6222.chunk.js.LICENSE.txt",
-    "static/media/AungBhoneKhant.dd7ddb0a.pdf": "/me/static/media/AungBhoneKhant.dd7ddb0a.pdf",
+    "static/media/AungBhoneKhant.e6d38ad5.pdf": "/me/static/media/AungBhoneKhant.e6d38ad5.pdf",
     "static/media/GameGlaze.32eb1187.png": "/me/static/media/GameGlaze.32eb1187.png",
     "static/media/News.e285b529.png": "/me/static/media/News.e285b529.png",
     "static/media/about1.3bb879b4.jpg": "/me/static/media/about1.3bb879b4.jpg",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.84fecc3a.js",
     "static/js/2.1e2e6222.chunk.js",
     "static/css/main.ed75f5ff.chunk.css",
-    "static/js/main.b372116e.chunk.js"
+    "static/js/main.9ac92151.chunk.js"
   ]
 }
