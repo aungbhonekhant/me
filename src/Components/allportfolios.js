@@ -3,6 +3,7 @@ import port2 from '../img/portImages/netflix-clone.png';
 import port3 from '../img/portImages/myprofile.png';
 import port4 from '../img/portImages/GameGlaze.png';
 import port5 from '../img/portImages/News.png';
+import port6 from '../img/portImages/akadmin.png';
 
 const allPortfolios = [
 {
@@ -59,6 +60,17 @@ const allPortfolios = [
     image: port5,
     title: 'News',
     body: 'Daily News Website,'
+},
+{
+    id: 6,
+    category: 'React',
+    link1: 'https://ak-admin.netlify.app/',
+    link2: 'www.github.com',
+    icon1: 'Go',
+    icon2: 'Y',
+    image: port6,
+    title: 'News',
+    body: 'Responsive Admin Dashboard using React and pure Css'
 }
 ]
 
