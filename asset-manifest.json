@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.ed75f5ff.chunk.css",
-    "main.js": "/me/static/js/main.9ac92151.chunk.js",
-    "main.js.map": "/me/static/js/main.9ac92151.chunk.js.map",
+    "main.js": "/me/static/js/main.aaff7fbe.chunk.js",
+    "main.js.map": "/me/static/js/main.aaff7fbe.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.84fecc3a.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.84fecc3a.js.map",
     "static/js/2.1e2e6222.chunk.js": "/me/static/js/2.1e2e6222.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/GameGlaze.32eb1187.png": "/me/static/media/GameGlaze.32eb1187.png",
     "static/media/News.e285b529.png": "/me/static/media/News.e285b529.png",
     "static/media/about1.3bb879b4.jpg": "/me/static/media/about1.3bb879b4.jpg",
+    "static/media/akadmin.73daf959.png": "/me/static/media/akadmin.73daf959.png",
     "static/media/api.8ccffa2d.svg": "/me/static/media/api.8ccffa2d.svg",
     "static/media/avatar.04ef187b.jpg": "/me/static/media/avatar.04ef187b.jpg",
     "static/media/design.2005f278.svg": "/me/static/media/design.2005f278.svg",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.84fecc3a.js",
     "static/js/2.1e2e6222.chunk.js",
     "static/css/main.ed75f5ff.chunk.css",
-    "static/js/main.9ac92151.chunk.js"
+    "static/js/main.aaff7fbe.chunk.js"
   ]
 }
